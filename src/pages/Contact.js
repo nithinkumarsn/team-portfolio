@@ -13,14 +13,23 @@ class Contact extends Component {
     <Card> 
     <FormGroup>
       <Label htmlFor="label">Name</Label>
-      <Input id="label" />
-    
+      <Input id="label" />  
     </FormGroup>
+    
     <FormGroup>
       <Label>Email</Label>
       <Input />
-      {/* <Message>This is the validation message</Message> */}
     </FormGroup>
+    
+    <FormGroup>
+      <Label>Contact</Label>
+      <Input />
+    </FormGroup>
+
+            <FormGroup>
+                <Label>Message</Label>
+                <TextArea rows='5' cols='10 ' > </TextArea>
+            </FormGroup>
     <FormGroup>
         <Button>Submit</Button>
     </FormGroup>
@@ -70,9 +79,10 @@ const Card= styled.div`
     @media(max-width:768px){
         padding:1rem 1rem;
         position:relative;
-        width:100%;
+        left:5px;
+        width:81vw;
         height:auto;
-        margin:20px;
+        margin:10px;
 
     }
     `
@@ -81,7 +91,7 @@ export const FormGroup = styled.div`
 color: black;
 display: block;
 width: 300px;
-margin: 50px auto;
+margin: 5px auto;
 
 @media(max-width:768px){
     width:100%;
@@ -116,4 +126,14 @@ const Button=styled.button`
     color:white;
     padding:5px 15px;
     border-radius:25px;
+    `
+    
+const TextArea = styled.textarea`
+   padding: 0.5em;
+color: palevioletred;
+background: #b3b1b138;
+border: none;
+border-radius: 3px;
+width: 100%;
+margin-bottom: 0.5em;
     `

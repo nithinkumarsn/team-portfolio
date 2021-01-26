@@ -19,8 +19,8 @@ class Projects extends Component {
        <Container>
         <LeftContainer>
             <h3>Ecommerce Project</h3>
-            <InnerPara>However, unlike traditional retail, ecommerce stores don’t attract customers off the street, they aren’t competing with a small selection of stores in one location, and online retail doesn’t deal with people face-to-face.</InnerPara>
-            <InnerPara>Planning out an ecommerce project starts by choosing a project management strategy that will help guide your project from start to finish.</InnerPara>
+            {/* <InnerPara>However, unlike traditional retail, ecommerce stores don’t attract customers off the street, they aren’t competing with a small selection of stores in one location, and online retail doesn’t deal with people face-to-face.</InnerPara>
+            <InnerPara>Planning out an ecommerce project starts by choosing a project management strategy that will help guide your project from start to finish.</InnerPara> */}
             <h4>Scrum</h4>
             <h5>Created to make IT projects more simple, this project management strategy is ideal for managing ecommerce projects. Its key features are:</h5>
             <OrderList>
@@ -40,8 +40,8 @@ class Projects extends Component {
         <Container>
         <LeftContainer>
             <h3>Travel Tickets Booking</h3>
-            <InnerPara>This Software project is aimed at automation of Online Ticket booking. Objective of the project is to develop customize software package for Ticket booking.</InnerPara>
-            <InnerPara>In our daily life we have to book ticket for Bus, movies, Flight and cricket match or foot boll match. When we do this task manually then it becomes very hard to manage the ticket booking. So are developing this system to manage booking of ticket automatically. </InnerPara>
+            {/* <InnerPara>This Software project is aimed at automation of Online Ticket booking. Objective of the project is to develop customize software package for Ticket booking.</InnerPara>
+            <InnerPara>In our daily life we have to book ticket for Bus, movies, Flight and cricket match or foot boll match. When we do this task manually then it becomes very hard to manage the ticket booking. So are developing this system to manage booking of ticket automatically. </InnerPara> */}
             <h4>Kanban</h4>
             <h5>Kanban is similar to Scrum project management but it is less restrictive. Kanban project management has a softer focus that allows you to categorize tasks as ‘To do’, ‘Doing,’ and  ‘Done.’</h5>
             <OrderList>
@@ -61,8 +61,8 @@ class Projects extends Component {
         <Container>
         <LeftContainer>
             <h3>Enterprise Resource planning</h3>
-            <InnerPara>Enterprise resource planning (ERP) is defined as the ability to deliver an integrated suite of business applications. ERP tools share a common process and data model, covering broad and deep operational end-to-end processes, such as those found in finance, HR, distribution, manufacturing, service and the supply chain.</InnerPara>
-            <InnerPara> ERP applications automate and support a range of administrative and operational business processes across multiple industries, including line of business, customer-facing, administrative and the asset management aspects of an enterprise</InnerPara>
+            {/* <InnerPara>Enterprise resource planning (ERP) is defined as the ability to deliver an integrated suite of business applications. ERP tools share a common process and data model, covering broad and deep operational end-to-end processes, such as those found in finance, HR, distribution, manufacturing, service and the supply chain.</InnerPara>
+            <InnerPara> ERP applications automate and support a range of administrative and operational business processes across multiple industries, including line of business, customer-facing, administrative and the asset management aspects of an enterprise</InnerPara> */}
             <h4>Agile</h4>
             <h5>Created to make IT projects more simple, this project management strategy is ideal for managing ecommerce projects. Its key features are:</h5>
             <OrderList>
@@ -124,7 +124,7 @@ const LeftContainer = styled.div`
     align-self: center;
 
     @media(max-width: 768px){
-        width:100%;
+        width:100vw;
     }
     
     `
@@ -135,20 +135,20 @@ const RightContainer = styled.div`
     align-self: center;
 
     @media(max-width: 768px){
-        width:100%;
+        width:100vw;
     }
     `
 
-const InnerPara = styled.p`
-    text-align:left;
-    padding:8px;
-    line-height:1.5;
+// const InnerPara = styled.p`
+//     text-align:left;
+//     padding:8px;
+//     line-height:1.5;
 
-    @media(max-width: 768px){
-        font-size:12px;
-        line-height:1.2;
-    }
-    `
+//     @media(max-width: 768px){
+//         font-size:12px;
+//         line-height:1.2;
+//     }
+//     `
 const OrderList = styled.ul`
     list-style-type:none;
     text-align:left;

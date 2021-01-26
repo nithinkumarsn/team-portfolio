@@ -15,8 +15,8 @@ export default Footer
 const Container= styled.div`
         display:flex;
         position:relative;
-        top:52px;
-        width:100%;
+        top:100px;
+        width:100vw;
         min-height:100px;
         background:#333333;
     
