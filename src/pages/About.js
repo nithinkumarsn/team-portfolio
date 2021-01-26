@@ -25,8 +25,8 @@ class About extends Component {
 export default About;
 
 const Container= styled.div`
-    display:grid;
-    grid-template-columns: 40% 60%;
+    display:flex;
+    flex-direction:row;
     
     `
 
