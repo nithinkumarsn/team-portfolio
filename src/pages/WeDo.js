@@ -53,18 +53,19 @@ const Container = styled.div`
     width:100vw;
     background:balck;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 1rem 1rem;
-    padding: 2rem 1rem;
+    display:flex;
+    flex-direction:column;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+/*    
     @media(max-width:360px){
         grid-template-columns:repeat(2,1fr);
-     }
+     } */
     `
 
 const Items =styled.div`
-    display:grid;
+    padding:10px;
+    margin:10px;
+    width:81vw;
     text-align:center;
    /* background: rgba(255,255,255,0.4); */
    background:${props => props.bgcolor || " green " };
