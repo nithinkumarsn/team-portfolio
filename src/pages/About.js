@@ -28,6 +28,10 @@ const Container= styled.div`
     display:flex;
     flex-direction:row;
     
+    @media(max-width:360px){
+        flex-direction:column;
+    }
+
     `
 
 const LeftContainer = styled.div`
@@ -38,10 +42,6 @@ const LeftContainer = styled.div`
 
     @media(max-width:768x){
         font-size:20px;
-    }
-    
-    @media(max-width:360x){
-        font-size:10px;
     }
 
     `
@@ -89,7 +89,7 @@ const TextArea=styled.h2`
         padding:1px 2px;
         font-size:9px;
     }
-    
+
     @media(max-width: 768px){
         padding:2rem 1rem;
         font-size:18px;
