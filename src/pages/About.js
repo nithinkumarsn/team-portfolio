@@ -35,6 +35,7 @@ const Container= styled.div`
     `
 
 const LeftContainer = styled.div`
+    width:50%;
     position:relative;
     top:10;
     padding:2rem 2rem;
@@ -44,12 +45,19 @@ const LeftContainer = styled.div`
         font-size:20px;
     }
 
+    @media(max-width:360px){
+        width:100%;
+    }
     `
 
 const RightContainer = styled.div`
-  
+    width:50%;
     padding:1rem 1rem;
     align-self: center;
+
+    @media(max-width:360px){
+        width:100%;
+    }
     `
 
 const Header = styled.h1`

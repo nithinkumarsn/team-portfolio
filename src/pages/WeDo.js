@@ -50,22 +50,20 @@ export default WeDo
 
 const Container = styled.div`
     position:relative;
-    width:100vw;
+    width:100%;
     background:balck;
-    display: grid;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-/*    
-    @media(max-width:360px){
-        grid-template-columns:repeat(2,1fr);
-     } */
+   
+    @media(max-width:768px){
+        flex-direction:column;
+     }
     `
 
 const Items =styled.div`
     padding:10px;
     margin:10px 20px;
-    width:81vw;
     text-align:center;
    /* background: rgba(255,255,255,0.4); */
    background:${props => props.bgcolor || " green " };
