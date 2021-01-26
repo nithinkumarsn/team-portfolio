@@ -170,7 +170,6 @@ const OrderList = styled.ul`
 
 const Oli = styled.li`
     padding:10px;
-    margin:20px;
     line-height:1.5;
 
     

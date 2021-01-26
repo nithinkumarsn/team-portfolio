@@ -30,6 +30,7 @@ const Container= styled.div`
     
     @media(max-width:360px){
         flex-direction:column;
+        width:100%;
     }
 
     `
