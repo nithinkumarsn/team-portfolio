@@ -64,7 +64,7 @@ const Container = styled.div`
 
 const Items =styled.div`
     padding:10px;
-    margin:10px;
+    margin:10px 20px;
     width:81vw;
     text-align:center;
    /* background: rgba(255,255,255,0.4); */

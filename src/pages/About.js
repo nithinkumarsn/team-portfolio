@@ -85,14 +85,16 @@ const TextArea=styled.h2`
     justify-content:center;
     padding:1rem 2rem;
 
+    @media(max-width: 360px){
+        padding:1px 2px;
+        font-size:9px;
+    }
+    
     @media(max-width: 768px){
         padding:2rem 1rem;
         font-size:18px;
     }
 
     
-    @media(max-width: 360px){
-        padding:1px 2px;
-        font-size:9px;
-    }
+   
     `
